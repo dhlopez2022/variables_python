@@ -9,9 +9,19 @@
 
 # Ejercicios de práctica numérica
 
-numero_1 = 5
-numero_2 = 7
+numero_1 = 10
+numero_2 = 2
 
+suma = numero_1+numero_2 # Operamos la suma
+
+#imprimp
+print('el resultado de la sumama es',suma)
+
+resta= numero_1 - numero_2 #operamos restar
+
+#imprimo restar
+
+print('el resultado de la resta es',resta)
 # Realizar la suma de las dos variables
 # numero_1 y numero_2
 # Almacenar el valor de la suma en una variable

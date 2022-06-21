@@ -18,15 +18,10 @@ print('Ingrese por consola su apellido/s:')
 apellido = str(input())
 
 # Imprima su nombre completo
-nombre_completo = nombre + ' '+ apellido
-print(nombre_completo)
+nombre_completo = print(nombre)+ ' '+ (apellido)
 
 # Almacenar su nombre completo en una vaDriable
-nombre_completo = nombre + ' '+ apellido
 # nombre_completo = .....
 
 # Imprimir la cantidad de letras que posee su nombre completo
-nombre_completo = nombre + ' '+ apellido
 # cantidad_letras = len(....)
-cantidad_letras = len(nombre_completo)
-print(nombre_completo, 'tiene', cantidad_letras, 'caracteres')

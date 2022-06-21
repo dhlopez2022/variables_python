@@ -31,17 +31,31 @@ los apellidos.
 NOTA: Para extraer el apellido del nombre completo recomendamos usar
 el método "split"
 Mostraremos un ejemplo:
-
 direccion_completa = 'Monroe 2716'
 calle, altura = direccion_completa.split(' ')
-
 Les dejo por su cuenta a que busquen un poco más acerca de este método
 que seguramente utilizarán mucho de acá en adelante.
 Les dejamos un link con algunos ejemplos más:
 https://www.pythonforbeginners.com/dictionary/python-split
-
 Cualquier duda con el método split pueden consultarla por el campus
 '''
 
 print('Jugando con texto')
 # Empezar aquí la resolución del ejercicio
+
+print('Ingrese el nombre completo de tu padre:')
+padre = (input())
+
+print('Ingrese el nombre completo de tu madre:')
+madre = (input())
+
+print('Ingrese su nombre:')
+nombre = (input())
+print('')
+
+nombre_padre, apellido_padre = padre.split()
+nombre_madre, apellido_madre = madre.split()
+
+nombre_hijo = nombre + ' ' + apellido_padre + ' ' + apellido_madre
+
+print('Tu nombre completo es:', nombre_hijo)
